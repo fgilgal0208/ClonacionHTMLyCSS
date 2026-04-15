@@ -1,0 +1,128 @@
+/* Clase de body para aplicar estilos generales de la página secundaria */
+body.pagina-secundaria {
+    background-color: #a3a3a3; /* Fondo gris igual que el índice */
+    color: white; /* Texto blanco igual que el índice */
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* El nombre en cursiva */
+.script-header {
+    font-family: 'Alex Brush', cursive; /* La fuente cursiva que hemos enlazado */
+    font-size: 70px; /* Tamaño grande */
+    color: #fdfefe; /* Un blanco muy puro */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: normal; /* Sin negrita para mayor elegancia */
+}
+
+/* El subencabezado "El incidente" */
+.sub-header {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+/* Estilo para los párrafos de texto */
+.contenido-texto p {
+    color: #000;
+    text-align: left; /* Alineación a la izquierda */
+    font-size: 1.1rem;
+    line-height: 1.8; /* Buen interlineado */
+    margin-bottom: 25px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* El enlace de "Volver al inicio" con flecha */
+.back-link {
+    color: white;
+    text-decoration: underline; /* Subrayado */
+    font-size: 18px;
+    display: flex;
+    align-items: center; /* Alinea icono y texto */
+    justify-content: start; /* Texto a la izquierda */
+    gap: 8px; /* Espacio entre flecha y texto */
+    margin-top: 40px;
+    margin-bottom: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-link:hover {
+    opacity: 0.8; /* Efecto al pasar el ratón */
+}
+
+/* --- Cuadrícula de contacto inferior (Móvil y Dirección) --- */
+.contacto-grid {
+    display: flex; /* Flexbox para ponerlos uno al lado del otro */
+    justify-content: space-between; /* Espacio entre ellos */
+    max-width: 1000px;
+    margin: 0 auto 50px auto;
+    gap: 30px;
+}
+
+/* Estilo para cada bloque blanco */
+.contacto-block {
+    background-color: white;
+    color: #555; /* Texto gris oscuro dentro */
+    flex: 1; /* Ocupan la mitad del ancho */
+    padding: 30px;
+    border-radius: 5px; /* Bordes redondeados sutiles */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra suave */
+    text-align: center;
+}
+
+/* Iconos dentro de los bloques */
+.contacto-block i {
+    font-size: 30px; /* Tamaño del icono */
+    margin-bottom: 15px;
+    color: #666; /* Gris para el icono */
+}
+
+/* Texto de etiqueta "Móvil" o "Dirección" */
+.contacto-block p {
+    font-size: 16px;
+    margin: 0;
+    color: #555;
+    font-weight: normal;
+}
+
+/* Añadir esto a EstilosIncidente.css para los datos de contacto */
+.contacto-block .dato {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px 0 0 0;
+    color: #000; /* Negro para que resalte en el cuadro blanco */
+}
+
+/* Copia aquí también los estilos del footer para que se vean en esta página */
+footer {
+    background-color: #a3a3a3;
+    padding: 20px 40px;
+    margin-top: 50px;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+}
+
+.footer-logos img {
+    height: 55px;
+    width: auto;
+}
+
+.footer-legal a {
+    color: white;
+    text-decoration: underline;
+    font-size: 12px;
+}
