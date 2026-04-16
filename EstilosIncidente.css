@@ -1,35 +1,35 @@
-/* Configuración General */
+
 body.pagina-secundaria {
-    background-color: #a3a3a3; /* Gris original */
+    background-color: #a3a3a3;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
-/* Cabecera */
+
 .header-secundario {
     padding: 40px 0;
 }
 
 .nombre-cursiva {
     font-family: 'Alex Brush', cursive;
-    font-size: 70px; /* Tamaño grande original */
-    color: #ffffff; /* Blanco */
+    font-size: 70px; 
+    color: #ffffff; 
     margin: 0;
     font-weight: normal;
 }
 
 .titulo-pagina {
     font-size: 30px;
-    color: #ffffff; /* Blanco */
+    color: #ffffff; 
     margin-top: 10px;
     margin-bottom: 50px;
     font-weight: normal;
-    text-transform: none; /* Mantener minúsculas si así es en el original */
+    text-transform: none; 
 }
 
-/* Contenido de Texto (¡NEGRO!) */
+
 
 .contenedor-texto-incidente {
     max-width: 900px;
@@ -39,26 +39,25 @@ body.pagina-secundaria {
 
 .contenido-texto p, 
 .contenido-texto ol li {
-    color: #000000;      /* Negro absoluto */
+    color: #000000;     
     text-align: left;
     
     /* AJUSTES DE FUENTE */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    font-size: 17px;     /* Tamaño estándar de WordPress */
-    font-weight: 400;    /* Grosor normal, sin negrita */
-    line-height: 1.7;    /* Interlineado amplio para legibilidad */
+    font-size: 17px;   
+    font-weight: 400;   
+    line-height: 1.7;   
     
-    margin-bottom: 24px; /* Separación entre párrafos */
-    letter-spacing: 0.2px; /* Espaciado sutil entre letras */
+    margin-bottom: 24px; 
+    letter-spacing: 0.2px; 
 }
 
-/* Ajuste específico para la lista de la Sentencia */
+
 .contenido-texto ol {
     padding-left: 20px;
     margin-bottom: 25px;
 }
 
-/* Enlace Volver */
 .navegacion-retorno {
     text-align: left;
     margin-top: 40px;
@@ -66,12 +65,12 @@ body.pagina-secundaria {
 }
 
 .navegacion-retorno a {
-    color: #ffffff; /* Blanco */
+    color: #ffffff; 
     text-decoration: underline;
     font-size: 18px;
 }
 
-/* Cuadrícula de contacto (Bloques Blancos) */
+
 .contacto-grid-inferior {
     display: flex;
     justify-content: center;
@@ -107,10 +106,9 @@ body.pagina-secundaria {
     font-weight: bold;
     font-size: 15px;
     margin: 10px 0 0 0;
-    color: #000000; /* Datos en negro */
+    color: #000000;
 }
 
-/* Pie de Página (Unificado) */
 footer {
     background-color: #a3a3a3;
     padding: 60px 40px 40px 40px;
@@ -141,7 +139,6 @@ footer {
     margin: 0 10px;
 }
 
-/* Ajuste móvil */
 @media (max-width: 768px) {
     .contacto-grid-inferior, .footer-logos {
         flex-direction: column;
@@ -152,7 +149,6 @@ footer {
     }
 }
 
-/* Animación de fundido suave para el contenido */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }

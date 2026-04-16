@@ -2,21 +2,21 @@ a {
     text-decoration: none !important;
 }   
 
-/* 1. CONFIGURACIÓN GLOBAL */
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #a3a3a3; /* Gris corporativo original */
+    background-color: #a3a3a3; 
     margin: 0;
     padding: 0 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 18px; /* Aumento de base para el zoom general */
+    font-size: 18px; 
 }
 
-/* 2. ANIMACIONES DE ENTRADA */
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -26,10 +26,10 @@ header, .texto-intro, .contenedor-imagenes, #contacto, #logo {
     animation: fadeIn 1s ease-out forwards;
 }
 
-/* 3. CABECERA */
+
 h1 {
     font-family: 'Alex Brush', cursive;
-    font-size: 8rem; /* Zoom en el título principal */
+    font-size: 8rem; 
     font-weight: 400;
     color: #ffffff;
     margin-top: 60px;
@@ -37,7 +37,7 @@ h1 {
 }
 
 h5 {
-    font-size: 2.2rem; /* Zoom en el subtítulo */
+    font-size: 2.2rem;
     font-weight: 400;
     color: #ffffff;
     margin-top: 10px;
@@ -46,14 +46,14 @@ h5 {
     text-transform: uppercase;
 }
 
-/* 4. TEXTOS DE INTRODUCCIÓN */
+
 .texto-intro p, .texto-intro ol {
     max-width: 1300px;
     margin: 25px auto;
     text-align: left;
     line-height: 1.8;
     font-size: 1.1rem;
-    color: #000000; /* Texto en negro como el original */
+    color: #000000; 
 }
 
 ol li {
@@ -61,13 +61,11 @@ ol li {
     padding-left: 10px;
 }
 
-/* 5. ZOOM EN EL GRID DE IMÁGENES */
+
 .contenedor-imagenes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* Ampliamos el ancho total para que las fotos se vean más grandes (Zoom) */
     max-width: 1300px; 
-    /* Aumentamos el espacio entre ellas */
     gap: 90px 70px; 
     margin: 80px auto;
 }
@@ -80,7 +78,7 @@ ol li {
 }
 
 .cuadro-link:hover {
-    transform: scale(1.05); /* Zoom extra al pasar el ratón */
+    transform: scale(1.05);
 }
 
 .contenedor-imagenes img {
@@ -94,7 +92,6 @@ ol li {
 .contenedor-imagenes p {
     color: #ffffff;
     text-align: center;
-    /* Zoom en los títulos de las imágenes */
     font-size: 2rem; 
     margin-top: 25px;
     letter-spacing: 4px;
@@ -102,20 +99,17 @@ ol li {
     font-weight: 300;
 }
 
-/* 6. ZOOM ESPECÍFICO EN EL BOTÓN DE CONTACTO */
 #contacto button {
     background-color: #ffffff;
     color: #333333;
     border: none;
-    /* Aumento del acolchado para que el botón sea más grande (Zoom) */
     padding: 25px 80px; 
-    /* Zoom en la letra del botón */
     font-size: 1.6rem; 
     font-weight: bold;
     border-radius: 60px;
     cursor: pointer;
     margin: 40px 0;
-    text-decoration: underline; /* Subrayado original */
+    text-decoration: underline; 
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -124,15 +118,13 @@ ol li {
     transform: scale(1.05);
 }
 
-/* 7. ZOOM EN EL LOGO FINAL */
+
 #logo img {
-    /* Zoom directo al tamaño del logo (de 100px a 160px) */
     width: 160px; 
     margin: 30px 0 50px 0;
-    /* Sin filtros para mantener el color negro original */
 }
 
-/* 8. FOOTER UNIFICADO */
+
 footer {
     background-color: #a3a3a3;
     padding: 60px 40px 20px 40px;
@@ -148,7 +140,7 @@ footer {
 }
 
 .footer-logos img {
-    height: 70px; /* Zoom ligero en logos del footer */
+    height: 70px; 
     width: auto;
 }
 
@@ -164,7 +156,7 @@ footer {
     margin: 0 10px;
 }
 
-/* 9. AJUSTE MÓVIL */
+
 @media (max-width: 768px) {
     .contenedor-imagenes {
         grid-template-columns: 1fr;
